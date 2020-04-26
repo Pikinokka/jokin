@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Leffaprojekti 25.4.2020</title>
+    <link rel="icon" href="images/leffaikoni.jpg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/leffat.css">
+     <script src="js/leffat.js"></script>
+  </head>
+
+  <body>
+
+    <div class="otsikkoalue">
+      <img class="otsikkokuva" src="images/banneri.png" alt="Otsikkokuvan pitäisi olla tässä">
+      <div class="otsikkoteksti">
+        <h1>Leffahaku</h1>
+        <h4>ja niiden arvostelut</h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4">
+      <form>
+        <div class="form-group">
+          <label for="leffa">Elokuvan nimi:</label>
+          <input type="text" class="form-control" id="leffa">
+        </div>
+        <div class="form-group">
+          <label for="vuosi">Julkaisuvuosi:</label>
+          <input type="text" class="form-control" id="vuosi">
+        </div>
+        <button onclick="hae_elokuva()" class="btn btn-outline-dark valkoinen_nappi" type="button" name="button">Hae</button>
+      </form>
+
+    </div>
+      <div class="col-sm-4">
+        <h4 id="elokuvan_nimi"></h4>
+        <img id="leffan_posteri" src="">
+      </div>
+
+      <div>
+      <div class="col-sm-4">Arvostelu</div>
+      </div>
+
+  </body>
+</html>
